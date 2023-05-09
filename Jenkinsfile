@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('Build Code') {
+    stage('') {
       steps {
-        sh 'echo "skills"'
+        sh 'ls -la'
       }
     }
 
